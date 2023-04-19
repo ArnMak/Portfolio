@@ -16,3 +16,5 @@ const counters = document.querySelectorAll('.skills__progress-scale'),
 counters.forEach((item, i) => {
     lines[i].style.width = item.innerHTML;
 });
+
+
